@@ -1,0 +1,12 @@
+Running Test getCreatedPlaylist
+Thread ID:1
+Running Test shouldNotBeAbleToCreateWithInvalidAccessToken
+Thread ID:1
+Running Test updateAPlaylist
+Thread ID:1
+
+===============================================
+Default Suite
+Total tests run: 4, Passes: 0, Failures: 4, Skips: 0
+===============================================
+
