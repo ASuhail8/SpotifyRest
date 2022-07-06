@@ -1,5 +1,6 @@
 package com.spotify.oauth.Base;
 
+
 import org.testng.annotations.BeforeMethod;
 
 import java.lang.reflect.Method;
