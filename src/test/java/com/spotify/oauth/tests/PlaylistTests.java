@@ -1,6 +1,5 @@
 package com.spotify.oauth.tests;
 
-import com.spotify.oauth.Base.BaseTest;
 import com.spotify.oauth.pojo.ErrorRoot;
 import com.spotify.oauth.pojo.Playlist;
 import com.spotify.oauth.utils.ConfigLoader;
@@ -15,7 +14,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-public class PlaylistTests extends BaseTest {
+public class PlaylistTests {
 
 String playlistId = null;
 
