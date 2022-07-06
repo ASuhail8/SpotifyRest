@@ -1,4 +1,7 @@
 FROM openjdk:8u191-jre-alpine3.9
+
+RUN apk add openjdk8
+
 WORKDIR /spotifyApi
 USER root
 RUN apk update && apk add maven
